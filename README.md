@@ -1,1 +1,3 @@
-# rocketseat-explorer
+# Rocketseat
+
+Aulas do curso explorer
