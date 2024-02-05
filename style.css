@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background-color: #E5E5E5; 
+}
+
+body::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 436px;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background-color: #000;
+}
+
+.page {
+    margin: auto;
+    width: 750px;
+}
+
+header{
+    width: 360px;
+    margin-top: 74px;
+}
+
+header h1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #E5E5E5;
+}
+
+header p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FF5374;
+}
+
+form{
+    /*Glassmorphism*/
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.49);
+
+    min-height: 300px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 64px;
+}
+
+fieldset{
+    border: none;
+    border-bottom: 1px solid #E6E6F0;
+}
+
+fieldset legend{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+footer{
+    position: inherit;
+    width: 750px;
+    height: 160px;
+    margin: auto;
+    background-color: #535971;
+    text-align: center;
+}
+
+button{
+    margin: auto;
+    background-color: #FF5374;
+
+}
